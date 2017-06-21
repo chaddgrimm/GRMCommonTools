@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-GRMCommonTools is currently only available through a private repository. To install
+GRMCommonTools is available through [CocoaPods](https://cocoapods.org/pods/GRMCommonTools). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
