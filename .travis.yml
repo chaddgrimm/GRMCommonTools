@@ -12,7 +12,7 @@ osx_image: xcode8.2
 # - pod install --project-directory=Example
 script:
 #- set -o pipefail && xcodebuild test -workspace Example/GRMCommonTools.xcworkspace -scheme GRMCommonTools-Example -sdk iphonesimulator10.2 ONLY_ACTIVE_ARCH=NO | xcpretty
-- xcodebuild -scheme GRMCommonTools -workspace Example/GRMCommonTools.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.2' build test
+- xcodebuild -scheme GRMCommonTools-Example -workspace Example/GRMCommonTools.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.2' build test
 #- pod lib lint
 after_success:
   - bash <(curl -s https://codecov.io/bash)
