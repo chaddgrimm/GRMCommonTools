@@ -11,6 +11,50 @@ import UIKit
 @available(iOS 10.0, *)
 extension UIView {
 
+    public var heightConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .height}.first
+    }
+
+    public var widthConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .width}.first
+    }
+
+    public var topConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .top}.first
+    }
+
+    public var bottomConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .bottom}.first
+    }
+
+    public var leftConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .left}.first
+    }
+
+    public var rightConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .right}.first
+    }
+
+    public var leadingConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .leading}.first
+    }
+
+    public var trailingConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .trailing}.first
+    }
+
+    public var centerXConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .centerX}.first
+    }
+
+    public var centerYConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .centerY}.first
+    }
+
+    public var lastBaselineConstraint:NSLayoutConstraint? {
+        return self.constraints.filter{$0.firstAttribute == .lastBaseline}.first
+    }
+
     public func addConstraintsWithFormat(_ format: String, views: UIView...) {
         var viewsDictionary = [String: UIView]()
         for (index, view) in views.enumerated() {
@@ -84,14 +128,6 @@ extension UIView {
         if let anchor = superview?.centerYAnchor {
             centerYAnchor.constraint(equalTo: anchor, constant: constant).isActive = true
         }
-    }
-
-    public func heightConstraint() -> NSLayoutConstraint? {
-        return self.constraints.filter{$0.firstAttribute == .height}.first
-    }
-
-    public func widthConstraint() -> NSLayoutConstraint? {
-        return self.constraints.filter{$0.firstAttribute == .width}.first
     }
 
     public func anchorCenterSuperview() {
