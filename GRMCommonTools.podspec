@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 This pod is a collection of helpful classes/methods based on other opensource frameworks.
                        DESC
 
-  s.homepage         = 'https://bitbucket.org/grimmsoftlabs/grmcommontools'
+  s.homepage         = 'https://github.com/chaddgrimm/GRMCommonTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Chad' => 'chaddgrimm@gmail.com' }
-  s.source           = { :git => 'https://chaddgrimm@bitbucket.org/grimmsoftlabs/grmcommontools.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chaddgrimm/GRMCommonTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
