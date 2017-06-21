@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GRMCommonTools_Example' do
+  pod 'GRMCommonTools', :path => '../'
+
+  target 'GRMCommonTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

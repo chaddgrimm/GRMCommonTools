@@ -1,0 +1,6 @@
+framework module GRMCommonTools {
+  umbrella header "GRMCommonTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

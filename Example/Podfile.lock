@@ -1,0 +1,16 @@
+PODS:
+  - GRMCommonTools (0.1.0)
+
+DEPENDENCIES:
+  - GRMCommonTools (from `../`)
+
+EXTERNAL SOURCES:
+  GRMCommonTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GRMCommonTools: fa1518d2bcd4fb3980c14f2c2a420217aa8a60a7
+
+PODFILE CHECKSUM: 65b9fd1e897cbf59c2913ed1be1e1af41400e50b
+
+COCOAPODS: 1.2.1
