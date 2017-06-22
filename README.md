@@ -1,6 +1,7 @@
 # GRMCommonTools
 
 [![CI Status](https://travis-ci.org/chaddgrimm/GRMCommonTools.svg?branch=master)](https://travis-ci.org/chaddgrimm/GRMCommonTools)
+[![codecov](https://codecov.io/gh/chaddgrimm/GRMCommonTools/branch/master/graph/badge.svg)](https://codecov.io/gh/chaddgrimm/GRMCommonTools)
 [![Version](https://img.shields.io/cocoapods/v/GRMCommonTools.svg?style=flat)](http://cocoapods.org/pods/GRMCommonTools)
 [![License](https://img.shields.io/cocoapods/l/GRMCommonTools.svg?style=flat)](http://cocoapods.org/pods/GRMCommonTools)
 [![Platform](https://img.shields.io/cocoapods/p/GRMCommonTools.svg?#style=flat)](http://cocoapods.org/pods/GRMCommonTools)
