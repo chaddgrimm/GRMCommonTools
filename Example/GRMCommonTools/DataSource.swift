@@ -11,10 +11,10 @@ import GRMCommonTools
 
 class DataSource: CollectionViewDataSource {
 
-    let users = ["Cell #1", "Cell #2", "Cell #3"]
+    let users = ["Cell #1", "Cell #2", "Cell #3", "Cell #4", "Cell #5", "Cell #6", "Cell #7"]
 
     override func cellClasses() -> [CollectionViewCell.Type] {
-        return [DefaultCell.self]
+        return [MessageCell.self]
     }
 
     override func headerClasses() -> [CollectionViewCell.Type]? {

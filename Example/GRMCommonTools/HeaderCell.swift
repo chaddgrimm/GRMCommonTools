@@ -28,7 +28,10 @@ class HeaderCell:CollectionViewCell{
     override func setupViews() {
         super.setupViews()
         separatorLineView.isHidden = false
+
         addSubview(label)
+
         label.anchor(top: topAnchor, left: leftAnchor, bottom: bottomAnchor, right: rightAnchor, topConstant: 8, leftConstant: 8, bottomConstant: 8, rightConstant: 8, widthConstant: 0, heightConstant: 0)
+        backgroundColor = .white
     }
 }

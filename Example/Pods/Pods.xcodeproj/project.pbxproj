@@ -12,11 +12,16 @@
 		31A7C13FFB3E893196316C1845D239CA /* GRMCommonTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D1AE38185674EF976320F74AD96443 /* GRMCommonTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FA0A7222527A7F21FB741F6C6E82480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4E9EECEE04829CCACB6A462455A558B7 /* Pods-GRMCommonTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF682E21468F681AF38417140A3748DF /* Pods-GRMCommonTools_Example-dummy.m */; };
-		769F2DE01EFA9FD1009DEACA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2DDD1EFA9FD1009DEACA /* CollectionViewController.swift */; };
-		769F2DE11EFA9FD1009DEACA /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2DDE1EFA9FD1009DEACA /* CachedImageView.swift */; };
-		769F2DE21EFA9FD1009DEACA /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2DDF1EFA9FD1009DEACA /* UIColor+Helper.swift */; };
-		769F2DEE1EFAE107009DEACA /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2DED1EFAE107009DEACA /* UIView+Constraints.swift */; };
-		769F2DF01EFAE125009DEACA /* UIImage+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2DEF1EFAE125009DEACA /* UIImage+Geometry.swift */; };
+		769F2E0D1EFC24CB009DEACA /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2E071EFC24CB009DEACA /* UIView+Helper.swift */; };
+		769F2E0E1EFC24CB009DEACA /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2E081EFC24CB009DEACA /* UIView+Constraints.swift */; };
+		769F2E0F1EFC24CB009DEACA /* UIImage+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2E091EFC24CB009DEACA /* UIImage+Geometry.swift */; };
+		769F2E101EFC24CB009DEACA /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2E0A1EFC24CB009DEACA /* UIColor+Helper.swift */; };
+		769F2E111EFC24CB009DEACA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2E0B1EFC24CB009DEACA /* CollectionViewController.swift */; };
+		769F2E121EFC24CB009DEACA /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769F2E0C1EFC24CB009DEACA /* CachedImageView.swift */; };
+		76C5FE571EFD86BC00153856 /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5FE561EFD86BC00153856 /* UIImage+Blur.swift */; };
+		76C5FE591EFD886200153856 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C5FE581EFD886200153856 /* CoreImage.framework */; };
+		76C5FE5B1EFDA77A00153856 /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5FE5A1EFDA77A00153856 /* Array+Remove.swift */; };
+		76C5FE5D1EFF109200153856 /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5FE5C1EFF109200153856 /* UIViewController+Helper.swift */; };
 		8E18C1391BB43F7ADB1A3A33A7206564 /* Pods-GRMCommonTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2113F20843A15F0391FE4E09851367DA /* Pods-GRMCommonTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95376A7C18374E76E44EBD446F8584F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A6F60CB3E49B1749BD84444E35911BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -48,11 +53,16 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69FBAFBB7268BE23AB422E8A3DD9B2F0 /* Pods-GRMCommonTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRMCommonTools_Tests-dummy.m"; sourceTree = "<group>"; };
 		765D421B7ED472A059E032879EDE5BB6 /* Pods-GRMCommonTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRMCommonTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		769F2DDD1EFA9FD1009DEACA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		769F2DDE1EFA9FD1009DEACA /* CachedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImageView.swift; sourceTree = "<group>"; };
-		769F2DDF1EFA9FD1009DEACA /* UIColor+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Helper.swift"; sourceTree = "<group>"; };
-		769F2DED1EFAE107009DEACA /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
-		769F2DEF1EFAE125009DEACA /* UIImage+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Geometry.swift"; sourceTree = "<group>"; };
+		769F2E071EFC24CB009DEACA /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		769F2E081EFC24CB009DEACA /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		769F2E091EFC24CB009DEACA /* UIImage+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Geometry.swift"; sourceTree = "<group>"; };
+		769F2E0A1EFC24CB009DEACA /* UIColor+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Helper.swift"; sourceTree = "<group>"; };
+		769F2E0B1EFC24CB009DEACA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		769F2E0C1EFC24CB009DEACA /* CachedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImageView.swift; sourceTree = "<group>"; };
+		76C5FE561EFD86BC00153856 /* UIImage+Blur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Blur.swift"; sourceTree = "<group>"; };
+		76C5FE581EFD886200153856 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		76C5FE5A1EFDA77A00153856 /* Array+Remove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Remove.swift"; sourceTree = "<group>"; };
+		76C5FE5C1EFF109200153856 /* UIViewController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helper.swift"; sourceTree = "<group>"; };
 		77D6FC8F2A6B3F911A6EC756D3C569B7 /* Pods-GRMCommonTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GRMCommonTools_Example.modulemap"; sourceTree = "<group>"; };
 		806EEA0A781ADE23FBC3ABA37FD24BCE /* Pods-GRMCommonTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GRMCommonTools_Tests.modulemap"; sourceTree = "<group>"; };
 		80DF272301E8DA52ACE5DF0CDB4EE44E /* Pods-GRMCommonTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRMCommonTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA0A7222527A7F21FB741F6C6E82480 /* Foundation.framework in Frameworks */,
+				76C5FE591EFD886200153856 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,11 +151,15 @@
 		48ED902EF3F83A91DE7B26D3601CD0FA /* GRMCommonTools */ = {
 			isa = PBXGroup;
 			children = (
-				769F2DDD1EFA9FD1009DEACA /* CollectionViewController.swift */,
-				769F2DDE1EFA9FD1009DEACA /* CachedImageView.swift */,
-				769F2DDF1EFA9FD1009DEACA /* UIColor+Helper.swift */,
-				769F2DED1EFAE107009DEACA /* UIView+Constraints.swift */,
-				769F2DEF1EFAE125009DEACA /* UIImage+Geometry.swift */,
+				76C5FE5C1EFF109200153856 /* UIViewController+Helper.swift */,
+				769F2E071EFC24CB009DEACA /* UIView+Helper.swift */,
+				769F2E081EFC24CB009DEACA /* UIView+Constraints.swift */,
+				769F2E091EFC24CB009DEACA /* UIImage+Geometry.swift */,
+				769F2E0A1EFC24CB009DEACA /* UIColor+Helper.swift */,
+				769F2E0B1EFC24CB009DEACA /* CollectionViewController.swift */,
+				769F2E0C1EFC24CB009DEACA /* CachedImageView.swift */,
+				76C5FE561EFD86BC00153856 /* UIImage+Blur.swift */,
+				76C5FE5A1EFDA77A00153856 /* Array+Remove.swift */,
 			);
 			path = GRMCommonTools;
 			sourceTree = "<group>";
@@ -173,6 +188,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				76C5FE581EFD886200153856 /* CoreImage.framework */,
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
@@ -317,6 +333,9 @@
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
+					233364CAED859840D1D15561AE88F33F = {
+						LastSwiftMigration = 0820;
+					};
 					F1708EB7968EF2CAADA9BA6A2F59F179 = {
 						LastSwiftMigration = 0820;
 					};
@@ -362,12 +381,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				769F2DE01EFA9FD1009DEACA /* CollectionViewController.swift in Sources */,
-				769F2DF01EFAE125009DEACA /* UIImage+Geometry.swift in Sources */,
-				769F2DE11EFA9FD1009DEACA /* CachedImageView.swift in Sources */,
-				769F2DEE1EFAE107009DEACA /* UIView+Constraints.swift in Sources */,
+				76C5FE5D1EFF109200153856 /* UIViewController+Helper.swift in Sources */,
+				769F2E111EFC24CB009DEACA /* CollectionViewController.swift in Sources */,
+				76C5FE5B1EFDA77A00153856 /* Array+Remove.swift in Sources */,
+				769F2E121EFC24CB009DEACA /* CachedImageView.swift in Sources */,
+				769F2E0E1EFC24CB009DEACA /* UIView+Constraints.swift in Sources */,
+				769F2E0F1EFC24CB009DEACA /* UIImage+Geometry.swift in Sources */,
+				769F2E0D1EFC24CB009DEACA /* UIView+Helper.swift in Sources */,
+				769F2E101EFC24CB009DEACA /* UIColor+Helper.swift in Sources */,
+				76C5FE571EFD86BC00153856 /* UIImage+Blur.swift in Sources */,
 				260A88EE291837880A96F2B5467A2EE1 /* GRMCommonTools-dummy.m in Sources */,
-				769F2DE21EFA9FD1009DEACA /* UIColor+Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +612,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FD4AAAA0CD1D86532A40189821B08A94 /* Pods-GRMCommonTools_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -615,6 +639,8 @@
 				PRODUCT_NAME = Pods_GRMCommonTools_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -663,6 +689,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0B13148455F00F38F800BC0CC1A2B261 /* Pods-GRMCommonTools_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -689,6 +716,7 @@
 				PRODUCT_NAME = Pods_GRMCommonTools_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

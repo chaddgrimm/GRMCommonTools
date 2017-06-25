@@ -22,16 +22,17 @@ class ViewController: CollectionViewController {
     }
 
     override func headerSize(_ section: Int) -> CGSize {
-        return CGSize(width: self.view.frame.width, height:30)
+        return .zero//CGSize(width: self.view.frame.width, height:30)
     }
 
     override func footerSize(_ section: Int) -> CGSize {
-        return CGSize(width: self.view.frame.width, height:30)
+        return .zero//CGSize(width: self.view.frame.width, height:30)
     }
 
     override func cellSize(_ indexPath: IndexPath) -> CGSize {
-        return CGSize(width: self.view.frame.width, height:50)
+        return CGSize(width: self.view.frame.width, height:100)
     }
 
+    
 }
 

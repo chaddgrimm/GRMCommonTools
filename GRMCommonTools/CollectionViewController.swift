@@ -226,6 +226,7 @@ open class CollectionViewController: UICollectionViewController, UICollectionVie
         self.collectionView?.register(DefaultCell.self, forCellWithReuseIdentifier: itemCellId)
         self.collectionView?.register(DefaultHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerCellId)
         self.collectionView?.register(DefaultFooter.self, forSupplementaryViewOfKind: UICollectionElementKindSectionFooter, withReuseIdentifier: footerCellId)
+
     }
 
     open override func numberOfSections(in collectionView: UICollectionView) -> Int {
