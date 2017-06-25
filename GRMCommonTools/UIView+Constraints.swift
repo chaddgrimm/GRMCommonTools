@@ -86,7 +86,7 @@ extension UIView {
 
     public func fillToSuperview(_ superview: UIView? = nil) {
         translatesAutoresizingMaskIntoConstraints = false
-        var view = superview == nil ? self.superview : superview
+        let view = superview == nil ? self.superview : superview
         if let view = view {
             leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
             rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
@@ -172,9 +172,8 @@ extension UIView {
 
     @discardableResult
     public func anchorCenterToSuperview(_ view:UIView? = nil,  constant: CGFloat = 0) -> [NSLayoutConstraint] {
-        var anchors = [NSLayoutConstraint]()
         guard let xAnchors = anchorCenterXToSuperview(view, constant:constant), let yAnchors = anchorCenterYToSuperview(view, constant:constant) else {
-            return anchors
+            return [NSLayoutConstraint]()
         }
         return [xAnchors, yAnchors]
     }
