@@ -42,7 +42,7 @@ extension UIColor {
     }
 
     // Returns black or white color based on the color provided (typically a background color)
-    convenience init(contrastForColor color:UIColor) {
+    convenience public init(contrastForColor color:UIColor) {
         var space:CGFloat = 0
         // count the perceptive luminance (human eye favors green color)
         let luminance = Double(1 - ((0.299 * color.r) + (0.587 * color.g) + (0.114 * color.b)))
