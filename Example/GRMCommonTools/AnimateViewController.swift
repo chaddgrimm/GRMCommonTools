@@ -138,6 +138,11 @@ class AnimateViewController: CollectionViewController {
         
         collectionView?.backgroundColor = .white
         collectionView?.showsVerticalScrollIndicator = false
+
+
+        self.leftButton.addTarget(self, action: #selector(pressLeftButton(_:)), for: .touchUpInside)
+        self.centerButton.addTarget(self, action: #selector(pressCenterButton(_:)), for: .touchUpInside)
+        self.rightButton.addTarget(self, action: #selector(pressRightButton(_:)), for: .touchUpInside)
         
     }
 
@@ -254,5 +259,17 @@ class AnimateViewController: CollectionViewController {
         self.leftButton.alpha = alpha
         self.centerButton.alpha = alpha
         self.rightButton.alpha = alpha
+    }
+
+    func pressLeftButton(_ sender:UIButton) {
+
+    }
+
+    func pressCenterButton(_ sender:UIButton) {
+
+    }
+
+    func pressRightButton(_ sender:UIButton) {
+
     }
 }
